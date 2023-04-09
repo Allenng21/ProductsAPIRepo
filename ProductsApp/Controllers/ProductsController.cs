@@ -19,9 +19,9 @@ namespace ProductsApp.Controllers
 
         Product[] products = new Product[]
         {
-            new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
-            new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
-            new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+            new Product { Id = 1, Name = "Soda", Category = "Groceries", Price = 2 },
+            new Product { Id = 2, Name = "Towel", Category = "Household", Price = 5.75M },
+            new Product { Id = 3, Name = "Nerfgun", Category = "Toys", Price = 13.99M }
         };
 
         // The GetAllProducts method returns the entire list of products as an IEnumerable<Product> type.
